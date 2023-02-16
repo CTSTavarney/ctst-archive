@@ -1,0 +1,21 @@
+/*
+ Ajatix Advanced CSS Drop Down Menu
+ Copyright (C) 2009 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuOUCLFTB {position:relative;z-index:100;width:100%;min-width:600px;height:34px;background:#800000 url(http://countrytwosteptour.com/ajatix/ajatix/maroon-top-bg.gif) center center;text-align:center;}
+* html .AJXCSSMenuOUCLFTB .ajxmw1 {float:left;height: 1px;border-left:600px solid #fff;}
+* html .AJXCSSMenuOUCLFTB .ajxmw2 {position:relative;margin-left:-600px;height: 1px;background:#800000 url(http://countrytwosteptour.com/ajatix/ajatix/maroon-top-bg.gif) center center;}
+.AJXCSSMenuOUCLFTB ul {position:relative;display:inline-block;margin:0;padding:0;list-style-type:none;}
+* html .AJXCSSMenuOUCLFTB ul {display:inline;}
+*+html .AJXCSSMenuOUCLFTB ul {display:inline;}
+.AJXCSSMenuOUCLFTB li {float:left;margin:0;}
+.AJXCSSMenuOUCLFTB a {display:block;float:left;height:34px;white-space:nowrap;overflow:hidden;padding:0 16px 0 0;font:13px/34px Verdana,Arial,Helvetica,sans-serif;text-decoration:none;text-align:left;color:#ffffff;}
+.AJXCSSMenuOUCLFTB a b {display:block;padding:0 0 0 16px;}
+.AJXCSSMenuOUCLFTB li:hover a,.AJXCSSMenuOUCLFTB .ajxover a {background:#a9621b url(http://countrytwosteptour.com/ajatix/ajatix/maroon-tab.gif) no-repeat bottom right;}
+.AJXCSSMenuOUCLFTB li:hover a b,.AJXCSSMenuOUCLFTB .ajxover a b {background:url(http://countrytwosteptour.com/ajatix/ajatix/maroon-tab.gif) no-repeat bottom left;}
+.AJXCSSMenuOUCLFTB br {clear:both;height:0;font-size: 1px;line-height: 0px;}
+
+/*
+{"background":"#FFFFFF","classes":[{"color":"","curovermo":true,"font":{"align":0,"bold":true,"italic":false,"mobold":true,"moitalic":false,"mounderline":false,"name":"Verdana,Arial,Helvetica,sans-serif","size":13,"underline":false},"height":{"Value":34,"enabled":true},"imagealign":0,"imagerepeat":false,"imagevalign":0,"leftpadding":16,"mocolor":"#a9621b","moimage":"ajatix\/maroon-tab.gif","moimagevalign":2,"mosubmenuimage":"ajatix\/maroon-tab.gif","name":"top","nimage":"","rightpadding":16,"slidingdoors":true,"submenuimage":"","submenuleftpadding":12,"submenurightpadding":12,"textcolor":"#ffffff","textmocolor":"#ffffff","width":{"Value":100,"enabled":false},"wrap":false},{"color":"","curovermo":true,"font":{"align":0,"bold":false,"italic":false,"mobold":false,"moitalic":false,"mounderline":false,"name":"Arial,Helvetica,sans-serif","size":12,"underline":false},"height":{"Value":24,"enabled":true},"imagealign":2,"imagerepeat":false,"imagevalign":1,"leftpadding":12,"mocolor":"#900000","moimage":"","moimagevalign":1,"mosubmenuimage":"ajatix\/maroon-sub-sub.gif","name":"submenu","nimage":"","padding":3,"rightpadding":20,"slidingdoors":false,"submenuimage":"ajatix\/maroon-sub-sub.gif","submenuleftpadding":12,"submenurightpadding":20,"textcolor":"#ffffff","textmocolor":"#ffffff","width":{"Value":190,"enabled":true},"wrap":true}],"hidedelay":600,"id":"AJXCSSMenuOUCLFTB","prjfile":false,"product":{"Name":"AJXCSSMenu","Version":"1.4.8.0"},"showdelay":160,"structure":[{"caption":"Home","href":"..\/index.html"},{"caption":"Calendar of Events","href":"..\/calendar_of_events.html"},{"caption":"Event Results","href":"..\/event_results.html"},{"caption":"Points Registry","href":"..\/points_registry.html"},{"caption":"Points Championship","href":"..\/points_championship.html"},{"caption":"Rules & Procedures","href":"..\/rules_procedures.html"},{"caption":"Forms","href":"..\/forms.html"}],"submenulevel":{"animopen":{"ease":"swing","speed":"fast","type":"roll"},"background":{"bgimage":{"align":0,"repeat":2,"source":"ajatix\/maroon-sub-bg.gif","valign":0},"color":"#9d0000"},"bordercolor":"#800000","childoffsetx":0,"childoffsety":0,"hasborder":false,"orientation":1},"toplevel":{"background":{"bgimage":{"align":1,"repeat":0,"source":"ajatix\/maroon-top-bg.gif","valign":1},"color":"#800000"},"bordercolor":"#800000","childoffsetx":2,"childoffsety":0,"hasborder":false,"itemsalign":1,"menualign":0,"orientation":0,"toplevelwidth":600,"toplevelwidthtype":2},"zindex":100}
+*/
